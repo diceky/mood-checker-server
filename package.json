@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Daisuke Yukita",
+  "license": "MIT",
+  "description": "Socket IO server for Moodchecker"
 }
