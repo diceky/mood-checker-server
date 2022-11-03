@@ -1,4 +1,8 @@
-const server = require("http").createServer();
+const server = require("http").createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('This is the Socket IO server for https://moodchecker.app');
+});
 const io = require("socket.io")(server, {
   cors: {
     origin: "*",
